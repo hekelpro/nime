@@ -64,8 +64,7 @@ def download(run, title):
 				f.write(chunk)
 				f.flush()
 		bar.finish()
-	print("") # new line ngab :v
-
+	
 	return "\n[+] Save: "+save[0]+"/"+title+".mp4"
 
 def getvideo(links, judul):
